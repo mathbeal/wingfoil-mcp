@@ -31,7 +31,7 @@ The client supports pagination and will fetch up to 1000 records by default.
 1. Clone the repository:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/mathbeal/diymcp
 cd diymcp
 ```
 
@@ -73,7 +73,7 @@ Add the following entry under the `mcpServers` key (create the file if it does n
       "args": [
         "bash",
         "-lc",
-        "cd /home/mathieu/diymcp && source .venv/bin/activate && AIRTABLE_BASE_ID=appXXXXXXXXXXXXXX" AIRTABLE_TABLE_ID=tblXXXXXXXXXXXXXX AIRTABLE_TOKEN=patXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" python main.py"
+        "cd /home/mathieu/diymcp && source .venv/bin/activate && AIRTABLE_BASE_ID=appXXXXXXXXXXXXXX AIRTABLE_TABLE_ID=tblXXXXXXXXXXXXXX AIRTABLE_TOKEN=patXXXXXXXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX python main.py"
       ]
     }
   }
