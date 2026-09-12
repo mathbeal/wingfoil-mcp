@@ -1,6 +1,6 @@
 """MCP server exposing Airtable data as tools for AI assistants.
 
-This module bootstraps a FastMCP server named ``diymcp`` and registers
+This module bootstraps a FastMCP server named ``wingfoil`` and registers
 tools that allow MCP-compatible clients to interact with Airtable.
 
 Usage:
@@ -18,7 +18,7 @@ Example:
     >>> # The MCP server instance is available as a module attribute.
     >>> from main import mcp
     >>> mcp.name
-    'diymcp'
+    'wingfoil'
 """
 
 import logging
@@ -35,7 +35,7 @@ from mcp.server.fastmcp import FastMCP  # noqa: E402
 
 logger: logging.Logger = logging.getLogger(__name__)
 
-mcp: FastMCP = FastMCP("diymcp")
+mcp: FastMCP = FastMCP("wingfoil")
 
 
 @mcp.tool()
@@ -67,5 +67,5 @@ def read_airtable_winds() -> dict[str, list[dict[str, Any]]]:
 
 
 if __name__ == "__main__":
-    logger.info("Starting MCP server diymcp")
+    logger.info("Starting MCP server wingfoil")
     mcp.run()
