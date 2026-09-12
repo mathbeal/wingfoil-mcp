@@ -148,3 +148,7 @@ main.py             the FastMCP server and its single tool
 airtable_client.py  REST client, authentication and pagination
 results/            the screenshots above
 ```
+
+## Licence
+
+MIT — voir [LICENSE](LICENSE).
