@@ -1,5 +1,5 @@
 [project]
-name = "diymcp"
+name = "wingfoil-mcp"
 version = "0.1.0"
 description = "A lightweight MCP server exposing Airtable data as tools for AI assistants."
 readme = "README.md"
